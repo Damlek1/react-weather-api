@@ -11,7 +11,7 @@ function App() {
 
 
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${process.env.REACT_APP_WEATHER_URL}&units=metric`
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=3fadd1dbb3f5d85c07816cec3fb18321&units=metric`
 
   const searchLocation = (event) => {
     if (event.key === 'Enter'){
