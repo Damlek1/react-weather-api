@@ -21,7 +21,7 @@ function App() {
       })
       setLocation('')
       setIcon(data.weather[0].icon)
-
+      console.log(icon)
     }
 
   }
